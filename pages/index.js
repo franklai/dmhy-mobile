@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const [message, setMessage] = useState("Input your keyword");
-  const [keyword, setKeyword] = useState("孔明");
+  const [keyword, setKeyword] = useState("北宇治");
   const [items, setItems] = useState([]);
 
   const handleSubmit = async (event) => {
